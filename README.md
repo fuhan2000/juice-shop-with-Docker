@@ -18,10 +18,10 @@ It is possible to set up, run, and stop OWASP Juice Shop in Docker.
 
 *Ref 1: Kali Linux Network Settings*
 
-Kali Linux has access to internet.
+Kali Linux has internet access.
 
 ### Procedures
-On Kali Linux, goto https://hub.docker.com.
+On Kali Linux, go to https://hub.docker.com.
 
 <img src="https://i.imgur.com/S2kjv5M.png" width="400" />
 
@@ -47,7 +47,7 @@ Click on Copy.
  
  *sudo apt install podman-docker*
 
- Modify the /etc/containers/registries.conf such that unqualified-search-registries shows the following:
+ Modify the /etc/containers/registries.conf such that unqualified-search-registries show the following:
  
  <img src="https://i.imgur.com/4WcTqJs.png" width="400" />
 
@@ -78,7 +78,7 @@ The browser will show OWASP Juice Shop.
 
 *Ref 8: Browser on the left-hand side. Burp on the right-hand side*
 
-To stop the docker process, it is necessary to find out its 'Container ID' through *docker ps*.
+To stop the docker process, it is necessary to find its 'Container ID' through *docker ps*.
 
 Then run *docker stop [Container ID]*
 
